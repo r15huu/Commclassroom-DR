@@ -2,13 +2,12 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Main {
-
+public class largestNumber {
     public static void main(String[] args) {
-          largestNumber();
+        largestNum();
     }
 
-    static void largestNumber() {
+    static void largestNum() {
 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter First Number: ");
@@ -24,6 +23,4 @@ public class Main {
         }
 
     }
-
 }
-

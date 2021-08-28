@@ -2,15 +2,14 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Main {
-
+public class prt {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
-	    System.out.print("Enter the principal value: ");
-	    int principal = input.nextInt();
-	    System.out.print("Enter the time: ");
+        System.out.print("Enter the principal value: ");
+        int principal = input.nextInt();
+        System.out.print("Enter the time: ");
         int time = input.nextInt();
         System.out.print("Enter the rate: ");
         int rate = input.nextInt();

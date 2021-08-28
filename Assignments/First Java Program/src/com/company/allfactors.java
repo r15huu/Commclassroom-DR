@@ -2,10 +2,9 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Main {
-
+public class allfactors {
     public static void main(String[] args) {
-	    Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int num = input.nextInt();
 
